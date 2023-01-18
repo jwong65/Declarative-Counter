@@ -4,7 +4,7 @@ function App(){
   let [counter, setCounter] = useState(1)
   //Declarative Rendering
   let newCount =() => {setCounter(counter+1)}
-  // window.changeCounter = setCounter
+  window.changeCounter = setCounter
   return(
     <div>
       <h1>{counter}</h1>
